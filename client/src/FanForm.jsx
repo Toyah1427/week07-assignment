@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function FanForm() {
-    const [form, setForm] = useState({ name: "", age: 0, movie: ""});
+    const [form, setForm] = useState({ name: "", age: 0});
 
     function handleSubmit(event) {
         event.preventDefault();
