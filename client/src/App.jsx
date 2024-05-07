@@ -20,9 +20,9 @@ export default function App() {
       return (
         <div key={fan.id}>
           <h2>
-            {fan.name} who is {fan.age}
+            {fan.name} age {fan.age}
           </h2>
-          <p>{fan.name} favorite B movie is </p>
+          <p>{fan.name} loves </p>
           <ul>
             {fan.movies.map((movie) => {
               return <li key={movie}>{movie}</li>;
